@@ -216,3 +216,11 @@ Steps:
 5.Display tax amount using print()
 
 6.Stop
+
+
+✅ Conclusion
+
+From this experiment, we successfully studied and implemented conditional statements in Python using if, elif, and else.
+We learned how to make decisions in a program based on different conditions such as checking numbers, grades, leap years, salary calculations, and income tax.
+
+This experiment helped us understand how conditional logic works in real-life problem solving and improved our logical thinking and programming skills in Python.
