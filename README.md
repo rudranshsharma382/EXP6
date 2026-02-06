@@ -9,7 +9,7 @@ Experiment No: 6
 
 Aim: Study of Conditional Statements in Python
 
-🎯 Aim
+🎯 *Aim*
 
 To understand and implement conditional statements (if, elif, else) in Python through various practical programs.
 
