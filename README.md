@@ -5,222 +5,221 @@ Name: Rudransh Sharma
 
 PRN: 25070123096
 
-Experiment No: 6
 
-Aim: Study of Conditional Statements in Python
 
-🎯 *Aim*
+Aim:
+To study and implement conditional statements in Python using if, elif, and else constructs to solve decision-making problems.
 
-To understand and implement conditional statements (if, elif, else) in Python through various practical programs.
+Theory:
+Conditional statements in Python are used to perform decision-making operations. They allow a program to execute certain blocks of code based on whether a condition is True or False.
 
-🔹 Algorithm 6A: Check Whether a Number is Positive, Negative, or Zero
+Types of Conditional Statements:
+if statement – Executes a block of code if the condition is true.
 
-Functions Used:
-input(), int(), print()
+if-else statement – Executes one block if condition is true, otherwise another block.
 
-Steps:
+if-elif-else ladder – Used when multiple conditions need to be checked.
 
-1.Start
+Nested if statements – One if statement inside another.
 
-2.Use input() to accept a number from the user
+Syntax:
+if (condition):
 
-3.Convert the input into integer using int()
+  statements
 
-4.If number > 0, display Positive using print()
+elif (condition):
 
-5.Else if number < 0, display Negative
+  statements
 
-6.Else display Zero
+else:
 
-7.Stop
+  statements
+Conditional statements are widely used in:
+Decision making
 
-🔹 Algorithm 6B: Check Whether a Number is Even or Odd
+Comparisons
 
-Functions Used:
-input(), int(), print()
+Logical operations
 
-Steps:
+Real-life problem solving (grading, salary calculation, tax calculation, etc.)
 
-1.Start
+Algorithms
+1. Check Whether a Number is Positive, Negative or Zero
+Start
 
-2.Accept a number using input()
+Input a number n
 
-3.Convert it to integer using int()
+If n > 0, print "Positive"
 
-4.If number modulo 2 equals 0, print Even
+Else if n < 0, print "Negative"
 
-5.Else print Odd
+Else print "Zero"
 
-6.Stop
+Stop
+2. Check Whether a Number is Even or Odd
+Start
 
-🔹 Algorithm 6C: Find the Largest of Three Numbers
+Input number n
 
-Functions Used:
-input(), int(), print()
+If n % 2 == 0, print "Even"
 
-Steps:
+Else print "Odd"
 
-1.Start
+Stop
+3. Find Largest of Three Numbers
+Start
 
-2.Accept three numbers using input()
+Input three numbers n1, n2, n3
 
-3.Convert them to integers using int()
+If n1 > n2 and n1 > n3, print n1 is largest
 
-4.Compare the three numbers using conditional statement
+Else if n2 > n1 and n2 > n3, print n2 is largest
 
-5.Store the largest number in a variable
+Else print n3 is largest
 
-6.Display the largest number using print()
+Stop
+4. Calculate Grade for One Subject
+Start
 
-7.Stop
+Input marks
 
-🔹 Algorithm 6D (1): Find Grade Based on Score
+If marks ≥ 90 → Grade A
 
-Functions Used:
-input(), float(), print()
+Else if marks ≥ 75 → Grade B
 
-Steps:
+Else if marks ≥ 60 → Grade C
 
-1.Start
+Else if marks ≥ 40 → Grade D
 
-2.Accept student score using input()
+Else → Grade F
 
-3.Convert it to float using float()
+Stop
+5. Calculate Average of 5 Subjects and Grade
+Start
 
-4.Check score using if-elif-else ladder
+Input marks of 5 subjects
 
-5.Assign grade accordingly
+Calculate average = sum of marks / 5
 
-6.Display grade using print()
+If average ≥ 90 → Grade A
 
-7.Stop
+Else if average ≥ 75 → Grade B
 
-🔹 Algorithm 6D (2): Find Average Grade of Three Subjects
+Else if average ≥ 60 → Grade C
 
-Functions Used:
-input(), float(), print()
+Else if average ≥ 40 → Grade D
 
-Steps:
+Else → Grade F
 
-1.Start
+Display average and grade
 
-2.Accept marks of three subjects using input()
+Stop
+6. Check Whether a Year is a Leap Year
+Start
 
-3.Convert marks to float using float()
+Input year
 
-4.Calculate average score
+If year divisible by 400 → Leap year
 
-5.Check grade using if-elif-else ladder
+Else if year divisible by 4 AND not divisible by 100 → Leap year
 
-6.Display average and grade using print()
+Else → Not a leap year
 
-7.Stop
+Stop
+7. Increment a Given Date by One Day
+Start
 
-🔹 Algorithm 6E: Check Whether a Year is a Leap Year
+Input date in format (dd/mm/yyyy)
 
-Functions Used:
-input(), int(), print()
+Extract day, month, year
 
-Steps:
+Determine maximum days in month:
 
-1.Start
+31 days → Jan, Mar, May, Jul, Aug, Oct, Dec
 
-2.Accept a year using input()
+30 days → Apr, Jun, Sep, Nov
 
-3.Convert year to integer using int()
+February → 28 or 29 (if leap year)
 
-4.Check leap year condition using conditional statements
+If date invalid → Print "Invalid date"
 
-5.Display result using print()
+Else if day equals max days:
 
-6.Stop
+If month = 12 → Set day=1, month=1, year+1
 
-🔹 Algorithm 6F: Increment the Date
+Else → Set day=1, month+1
 
-Functions Used:
-input(), split(), int(), print()
+Else → Increment day by 1
 
-Steps:
+Print next date
 
-1.Start
+Stop
+8. Check Whether Character is Vowel or Consonant
+Start
 
-2.Accept date in dd/mm/yyyy format using input()
+Input character ch
 
-3.Split date using split('/')
+If ch is in (a, e, i, o, u, A, E, I, O, U) → Print "Vowel"
 
-4.Convert day, month, year into integers using int()
+Else → Print "Consonant"
 
-5.Check valid date using conditional statements
+Stop
+9. Calculate Gross Salary
+Start
 
-6.Increment date accordingly
+Input basic salary
 
-7.Display next date using print()
+If basic ≤ 10000:
 
-8.Stop
+HRA = 20%
 
-🔹 Algorithm 6G: Check Whether a Character is Vowel or Consonant
+DA = 80%
 
-Functions Used:
-input(), lower(), print()
+Else if basic ≤ 20000:
 
-Steps:
+HRA = 25%
 
-1.Start
+DA = 90%
 
-2.Accept a character using input()
+Else:
 
-3.Convert character to lowercase using lower()
+HRA = 30%
 
-4.Check whether character is vowel using conditional statement
+DA = 95%
 
-5.Display result using print()
+Gross Salary = Basic + HRA + DA
 
-6.Stop
+Print gross salary
 
-🔹 Algorithm 6H: Calculate Gross Salary
+Stop
+10. Calculate Income Tax Based on Annual Income
+Start
 
-Functions Used:
-input(), float(), print()
+Input annual income
 
-Steps:
+If income ≤ 2,50,000 → Tax = 0
 
-1.Start
+Else if income ≤ 5,00,000 → Tax = 5% of (income - 2,50,000)
 
-2.Accept basic salary using input()
+Else if income ≤ 10,00,000 → Tax = (5% of 2,50,000) + 20% of (income - 5,00,000)
 
-3.Convert it to float using float()
+Else → Tax = (5% of 2,50,000) + (20% of 5,00,000) + 30% of (income - 10,00,000)
 
-4.Calculate HRA and DA using conditional statements
+Print tax
 
-5.Calculate gross salary
+Stop
+Conclusion:
+In this experiment, we successfully studied and implemented various conditional statements in Python. We learned how decision-making structures like if, if-else, and if-elif-else are used to solve real-world problems such as grading systems, salary calculations, tax computation, leap year detection, and date increment operations.
 
-6.Display salary details using print()
+This experiment helped in understanding:
 
-7.Stop
+Logical comparisons
 
-🔹 Algorithm 6I: Calculate Income Tax
+Relational and arithmetic operators
 
-Functions Used:
-input(), float(), print()
+Structured programming
 
-Steps:
+Real-life applications of conditional statements
 
-1.Start
+Hence, the objective of studying conditional statements in Python was successfully achieved
 
-2.Accept annual income using input()
-
-3.Convert income to float using float()
-
-4.Calculate tax using conditional statements
-
-5.Display tax amount using print()
-
-6.Stop
-
-
-✅ Conclusion
-
-From this experiment, we successfully studied and implemented conditional statements in Python using if, elif, and else.
-We learned how to make decisions in a program based on different conditions such as checking numbers, grades, leap years, salary calculations, and income tax.
-
-This experiment helped us understand how conditional logic works in real-life problem solving and improved our logical thinking and programming skills in Python.
