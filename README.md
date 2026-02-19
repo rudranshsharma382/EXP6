@@ -56,6 +56,7 @@ Else if n < 0, print "Negative"
 Else print "Zero"
 
 Stop
+
 2. Check Whether a Number is Even or Odd
 Start
 
@@ -66,6 +67,7 @@ If n % 2 == 0, print "Even"
 Else print "Odd"
 
 Stop
+
 3. Find Largest of Three Numbers
 Start
 
@@ -78,6 +80,7 @@ Else if n2 > n1 and n2 > n3, print n2 is largest
 Else print n3 is largest
 
 Stop
+
 4. Calculate Grade for One Subject
 Start
 
@@ -94,6 +97,7 @@ Else if marks ≥ 40 → Grade D
 Else → Grade F
 
 Stop
+
 5. Calculate Average of 5 Subjects and Grade
 Start
 
@@ -114,6 +118,7 @@ Else → Grade F
 Display average and grade
 
 Stop
+
 6. Check Whether a Year is a Leap Year
 Start
 
@@ -126,6 +131,7 @@ Else if year divisible by 4 AND not divisible by 100 → Leap year
 Else → Not a leap year
 
 Stop
+
 7. Increment a Given Date by One Day
 Start
 
@@ -154,6 +160,7 @@ Else → Increment day by 1
 Print next date
 
 Stop
+
 8. Check Whether Character is Vowel or Consonant
 Start
 
@@ -164,6 +171,7 @@ If ch is in (a, e, i, o, u, A, E, I, O, U) → Print "Vowel"
 Else → Print "Consonant"
 
 Stop
+
 9. Calculate Gross Salary
 Start
 
@@ -192,6 +200,7 @@ Gross Salary = Basic + HRA + DA
 Print gross salary
 
 Stop
+
 10. Calculate Income Tax Based on Annual Income
 Start
 
@@ -208,6 +217,7 @@ Else → Tax = (5% of 2,50,000) + (20% of 5,00,000) + 30% of (income - 10,00,000
 Print tax
 
 Stop
+
 Conclusion:
 In this experiment, we successfully studied and implemented various conditional statements in Python. We learned how decision-making structures like if, if-else, and if-elif-else are used to solve real-world problems such as grading systems, salary calculations, tax computation, leap year detection, and date increment operations.
 
