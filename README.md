@@ -44,6 +44,7 @@ Logical operations
 Real-life problem solving (grading, salary calculation, tax calculation, etc.)
 
 ALGORITHMS
+
 1. Check Whether a Number is Positive, Negative or Zero
 Start
 
