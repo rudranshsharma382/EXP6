@@ -43,180 +43,187 @@ Logical operations
 
 Real-life problem solving (grading, salary calculation, tax calculation, etc.)
 
-Algorithms
+ALGORITHMS
 1. Check Whether a Number is Positive, Negative or Zero
 Start
 
-Input a number n
+1.Input a number n
 
-If n > 0, print "Positive"
+2.If n > 0, print "Positive"
 
-Else if n < 0, print "Negative"
+3.Else if n < 0, print "Negative"
 
-Else print "Zero"
+4.Else print "Zero"
 
-Stop
+5.Stop
 
 2. Check Whether a Number is Even or Odd
 Start
 
-Input number n
+1.Input number n
 
-If n % 2 == 0, print "Even"
+2.If n % 2 == 0, print "Even"
 
-Else print "Odd"
+3.Else print "Odd"
 
-Stop
+4.Stop
 
 3. Find Largest of Three Numbers
-Start
 
-Input three numbers n1, n2, n3
+1.Start
 
-If n1 > n2 and n1 > n3, print n1 is largest
+2.Input three numbers n1, n2, n3
 
-Else if n2 > n1 and n2 > n3, print n2 is largest
+3.If n1 > n2 and n1 > n3, print n1 is largest
 
-Else print n3 is largest
+4.Else if n2 > n1 and n2 > n3, print n2 is largest
 
-Stop
+5.Else print n3 is largest
+
+6.Stop
 
 4. Calculate Grade for One Subject
-Start
 
-Input marks
+1.Start
 
-If marks ≥ 90 → Grade A
+2.Input marks
 
-Else if marks ≥ 75 → Grade B
+3.If marks ≥ 90 → Grade A
 
-Else if marks ≥ 60 → Grade C
+4.Else if marks ≥ 75 → Grade B
 
-Else if marks ≥ 40 → Grade D
+5.Else if marks ≥ 60 → Grade C
 
-Else → Grade F
+6.Else if marks ≥ 40 → Grade D
 
-Stop
+7.Else → Grade F
+
+8.Stop
 
 5. Calculate Average of 5 Subjects and Grade
+   
 Start
 
-Input marks of 5 subjects
+1.Input marks of 5 subjects
 
-Calculate average = sum of marks / 5
+2.Calculate average = sum of marks / 5
 
-If average ≥ 90 → Grade A
+3.If average ≥ 90 → Grade A
 
-Else if average ≥ 75 → Grade B
+4.Else if average ≥ 75 → Grade B
 
-Else if average ≥ 60 → Grade C
+5.Else if average ≥ 60 → Grade C
 
-Else if average ≥ 40 → Grade D
+6.Else if average ≥ 40 → Grade D
 
-Else → Grade F
+7.Else → Grade F
 
-Display average and grade
+8.Display average and grade
 
-Stop
+9.Stop
 
 6. Check Whether a Year is a Leap Year
-Start
+   
+1.Start
 
-Input year
+2.Input year
 
-If year divisible by 400 → Leap year
+3.If year divisible by 400 → Leap year
 
-Else if year divisible by 4 AND not divisible by 100 → Leap year
+4.Else if year divisible by 4 AND not divisible by 100 → Leap year
 
-Else → Not a leap year
+5.Else → Not a leap year
 
-Stop
+6.Stop
 
 7. Increment a Given Date by One Day
-Start
 
-Input date in format (dd/mm/yyyy)
+1.Start
 
-Extract day, month, year
+2.Input date in format (dd/mm/yyyy)
 
-Determine maximum days in month:
+3.Extract day, month, year
 
-31 days → Jan, Mar, May, Jul, Aug, Oct, Dec
+4.Determine maximum days in month:
 
-30 days → Apr, Jun, Sep, Nov
+5.31 days → Jan, Mar, May, Jul, Aug, Oct, Dec
 
-February → 28 or 29 (if leap year)
+6.30 days → Apr, Jun, Sep, Nov
 
-If date invalid → Print "Invalid date"
+7.February → 28 or 29 (if leap year)
 
-Else if day equals max days:
+8.If date invalid → Print "Invalid date"
 
-If month = 12 → Set day=1, month=1, year+1
+9.Else if day equals max days:
 
-Else → Set day=1, month+1
+10.If month = 12 → Set day=1, month=1, year+1
 
-Else → Increment day by 1
+11.Else → Set day=1, month+1
 
-Print next date
+12.Else → Increment day by 1
 
-Stop
+13.Print next date
+
+14.Stop
 
 8. Check Whether Character is Vowel or Consonant
-Start
 
-Input character ch
+1.Start
 
-If ch is in (a, e, i, o, u, A, E, I, O, U) → Print "Vowel"
+2.Input character ch
 
-Else → Print "Consonant"
+3.If ch is in (a, e, i, o, u, A, E, I, O, U) → Print "Vowel"
 
-Stop
+4.Else → Print "Consonant"
+
+5.Stop
 
 9. Calculate Gross Salary
-Start
+1.Start
 
-Input basic salary
+2.Input basic salary
 
-If basic ≤ 10000:
+3.If basic ≤ 10000:
 
-HRA = 20%
+4.HRA = 20%
 
-DA = 80%
+5.DA = 80%
 
-Else if basic ≤ 20000:
+6.Else if basic ≤ 20000:
 
-HRA = 25%
+7.HRA = 25%
 
-DA = 90%
+8.DA = 90%
 
-Else:
+9.Else:
 
-HRA = 30%
+10.HRA = 30%
 
-DA = 95%
+11.DA = 95%
 
-Gross Salary = Basic + HRA + DA
+12.Gross Salary = Basic + HRA + DA
 
-Print gross salary
+13.Print gross salary
 
-Stop
+14.Stop
 
 10. Calculate Income Tax Based on Annual Income
-Start
 
-Input annual income
+1.Start
 
-If income ≤ 2,50,000 → Tax = 0
+2.Input annual income
 
-Else if income ≤ 5,00,000 → Tax = 5% of (income - 2,50,000)
+3.If income ≤ 2,50,000 → Tax = 0
 
-Else if income ≤ 10,00,000 → Tax = (5% of 2,50,000) + 20% of (income - 5,00,000)
+4.Else if income ≤ 5,00,000 → Tax = 5% of (income - 2,50,000)
 
-Else → Tax = (5% of 2,50,000) + (20% of 5,00,000) + 30% of (income - 10,00,000)
+5.Else if income ≤ 10,00,000 → Tax = (5% of 2,50,000) + 20% of (income - 5,00,000)
 
-Print tax
+6.Else → Tax = (5% of 2,50,000) + (20% of 5,00,000) + 30% of (income - 10,00,000)
 
-Stop
+7.Print tax
+
+8.Stop
 
 Conclusion:
 In this experiment, we successfully studied and implemented various conditional statements in Python. We learned how decision-making structures like if, if-else, and if-elif-else are used to solve real-world problems such as grading systems, salary calculations, tax computation, leap year detection, and date increment operations.
